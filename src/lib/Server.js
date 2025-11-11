@@ -41,6 +41,8 @@ const {
   PROMETHEUS_METRICS_PASSWORD,
   DICEBEAR_TYPE,
   USE_GRAVATAR,
+  WG_PERSISTENT_KEEPALIVE,
+  NOHANDSHAKE
 } = require('../config');
 
 const requiresPassword = !!PASSWORD_HASH;
